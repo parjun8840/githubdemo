@@ -9,3 +9,6 @@ sam:
   cities:
   - Sanfrancisco
   - Chicago　
+ram:
+  cities:
+  - Bangalore
