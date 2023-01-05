@@ -6,4 +6,4 @@ sam:
   address: amsterdam
 ram:
   email: noreply-ram@gmail.com
-  address: bangalore
+  address: hyderabad
