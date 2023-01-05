@@ -12,3 +12,4 @@ sam:
 ram:
   cities:
   - Bangalore
+  - Hyderabad
