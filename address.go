@@ -8,4 +8,5 @@ parjun8840:
 sam:
   cities:
   - Sanfrancisco
-  - Chicago　
+  - Chicago
+  - LA　
