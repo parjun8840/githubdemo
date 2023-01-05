@@ -7,3 +7,6 @@ sam:
 ram:
   email: noreply-sam@gmail.com
   address: bangalore
+jim:
+  email: noreply-sam@gmail.com
+  address: san francisco
