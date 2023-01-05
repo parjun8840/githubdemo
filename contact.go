@@ -5,5 +5,5 @@ sam:
   email: noreply-sam@gmail.com
   address: amsterdam
 ram:
-  email: noreply-sam@gmail.com
+  email: noreply-ram@gmail.com
   address: bangalore
