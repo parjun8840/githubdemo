@@ -14,5 +14,3 @@ ram:
   - Bangalore
   - Hyderabad
   - Chennai
-  - Chicago
-  - LA　
