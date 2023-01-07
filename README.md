@@ -4,5 +4,5 @@
 * https://medium.com/@parjun8840/entering-into-devops-02-github-basics-492974a3c964
 
 ```
-There are upcoming stories.
+There are upcoming stories, please stay tune.
 ```
