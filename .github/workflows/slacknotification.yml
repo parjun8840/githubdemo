@@ -1,4 +1,7 @@
-on: [pull_request]
+on:
+  pull_request:
+    types: [opened, reopened]
+
 name: notification-pr-open
 jobs:
   slack_msg_send:
