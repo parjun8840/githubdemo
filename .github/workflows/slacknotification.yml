@@ -1,0 +1,19 @@
+on: [pull_request]
+name: notification
+jobs:
+  slack_msg_send:
+    #if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    steps:
+    - name: Post to a Slack channel
+      id: slack
+      uses: slackapi/slack-github-action@v1.23.0
+      with:
+      # Slack channel id, channel name, or user id to post message.
+      # See also: https://api.slack.com/methods/chat.postMessage#channels
+        # For posting a rich message using Block Kit
+        payload: |
+          {
+            "text": "A PR has been created:\n URL of the PR: ${{ github.event.pull_request.html_url }}, Base ref- ${{ github.event.pull_request.base.ref }}" }
+      env:
+        SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
