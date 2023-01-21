@@ -1,5 +1,5 @@
 on: [pull_request]
-name: notification
+name: notification-pr-open
 jobs:
   slack_msg_send:
     if: github.event.pull_request.base.ref == 'main'
