@@ -1,6 +1,6 @@
-on:
-  pull_request:
-    types: [opened, reopened, edited]
+on: [pull_request]
+  #pull_request:
+  #  types: [opened, reopened, edited]
 
 name: notification-pr-open
 jobs:
