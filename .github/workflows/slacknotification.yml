@@ -2,7 +2,7 @@ on: [pull_request]
 name: notification
 jobs:
   slack_msg_send:
-    #if: github.ref == 'refs/heads/main'
+    if: github.event.pull_request.base.ref == 'main'
     runs-on: ubuntu-latest
     steps:
     - name: Post to a Slack channel
