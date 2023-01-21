@@ -17,6 +17,6 @@ jobs:
         # For posting a rich message using Block Kit
         payload: |
           {
-            "text": "A PR has been ${{ pull_request.type }} :\n URL of the PR: ${{ github.event.pull_request.html_url }}, Target Branch- ${{ github.event.pull_request.base.ref }}\n PR Title- ${{ github.event.pull_request.title }}, Requested By: ${{ github.event.pull_request.user.login }}" }
+            "text": "A PR has been ${{ pull_request.action }} :\n URL of the PR: ${{ github.event.pull_request.html_url }}, Target Branch- ${{ github.event.pull_request.base.ref }}\n PR Title- ${{ github.event.pull_request.title }}, Requested By: ${{ github.event.pull_request.user.login }}" }
       env:
         SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
