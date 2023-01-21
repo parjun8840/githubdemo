@@ -2,7 +2,7 @@
 ***
 # Follow Arjun on Medium.com https://medium.com/@parjun8840
 
-## There are upcoming stories, please stay tune with me.
+# There are upcoming stories, please stay tune with me.
 
 ## Please follow me on Medium.com
 ## Thank You
